@@ -9,8 +9,8 @@ BetterPosada es un addon para World of Warcraft 3.3.5a (como UltimoWoW), diseña
 - **Temas visuales** personalizables: `dark`, `warm`, `ice`, `classic`, `noir`.  
 - **Barra de iconos + contadores**: detecta tipos de mensaje (ICC, TOC, Comercio, etc.), muestra cuantos hay de cada tipo, y permite filtrar con un click.  
 - **Sistema de reportes** vía comando o UI:
-  - ` /bpreport <jugador> <mensaje>` — agrega reporte para un jugador.  
-  - ` /bpshowreports <jugador>` — abre ventana con los reportes existentes. Si omites `<jugador>`, usa tu target actual.  
+  - `/bpreport <jugador> <mensaje>` — agrega reporte para un jugador.  
+  - `/bpshowreports <jugador>` — abre ventana con los reportes existentes. Si omites `<jugador>`, usa tu target actual.  
   - Los reportes se comparten por whisper del addon (no llenan el chat público).  
 - **Configuración del usuario**:
   - Tiempo de expiración de mensajes (60, 90 o 120 segundos).  
@@ -20,9 +20,9 @@ BetterPosada es un addon para World of Warcraft 3.3.5a (como UltimoWoW), diseña
 
 ## 💬 Comandos
 
-- /bpreport <jugador> <mensaje> — Añadir un reporte
-- /bpshowreports [jugador] — Ver los reportes de un jugador
-- /bpclear — Borrar todos tus reportes locales
+- `/bpreport <jugador> <mensaje>` — Añadir un reporte (Si no añades el mensaje, abrirá la ventana de reporte con ese jugador)
+- `/bpshowreports <jugador>` — Ver los reportes de un jugador
+- `/bpclearreports <jugador>` — Borrar todos tus reportes locales
 
 - Si no especificas `<jugador>` en `/bpshowreports`, se intenta usar tu **target actual**.  
 - Si usas `/bpreport` **sin argumentos**, abre la ventana de reporte vacía (útil para editar reportes manualmente).
@@ -52,5 +52,11 @@ Las contribuciones son bienvenidas. Si encuentras errores, quieres sugerir mejor
 4. Espera revisión; tus cambios pueden ser integrados para que otros lo usen.
    
 ---
+
+
+### ☕ Apoya el proyecto  
+Si BetterPosada te ha sido útil y deseas apoyar el desarrollo:
+
+**https://ko-fi.com/nibu1**
 
 ¡Gracias por usar BetterPosada! 🚪
