@@ -1734,12 +1734,7 @@ SlashCmdList["BPCLEAR"] = function(msg)
 end
 
 hooksecurefunc("ChatEdit_InsertLink", function(text)
-    -- si tu editbox NO existe, salir
     if not BetterPosadaMessageInput then return end
-
-    -- si tu editbox NO tiene foco, salir
     if not BetterPosadaMessageInput:HasFocus() then return end
-
-    -- insertar link en tu editbox
     BetterPosadaMessageInput:Insert(text)
 end)
