@@ -18,7 +18,6 @@ BetterPosada es un addon para World of Warcraft 3.3.5a (como UltimoWoW), diseña
   - Tiempo de expiración de mensajes (60, 90 o 120 segundos).  
   - Tema visual.  
   - Tipo de animación.  
-  - Ventana de configuración movible, con botón de cerrar, y se cierra con `ESC`.
 
 ## 💬 Comandos
 
