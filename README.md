@@ -1,5 +1,7 @@
 # BetterPosada – Addon para UltimoWoW
 
+<img width="285" height="285" alt="betterPosada" src="https://github.com/user-attachments/assets/8e925877-1b98-4310-9233-2c40f6818f60" />
+
 BetterPosada es un addon para World of Warcraft 3.3.5a (como UltimoWoW), diseñado para mejorar la experiencia del chat de posada: filtrar mensajes, destacar tipo de contenido, y facilitar reportes compartidos entre jugadores.
 
 ## ✨ Características principales
