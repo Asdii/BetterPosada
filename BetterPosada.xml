@@ -1,0 +1,33 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <Frame name="BetterPosadaFrame"
+           parent="UIParent"
+           hidden="true"
+           enableMouse="true"
+           movable="true"
+           clampedToScreen="true">
+
+        <Size x="450" y="600"/>
+
+        <Anchors>
+            <Anchor point="CENTER"/>
+        </Anchors>
+
+        <Frames>
+            <ScrollFrame name="BetterPosadaScrollFrame" inherits="UIPanelScrollFrameTemplate">
+                <Size x="410" y="540"/>
+                <Anchors>
+                    <Anchor point="TOPLEFT">
+                        <Offset x="10" y="-10"/>
+                    </Anchor>
+                </Anchors>
+            </ScrollFrame>
+        </Frames>
+
+        <Scripts>
+            <OnLoad>
+                BetterPosadaFrame:Hide();
+            </OnLoad>
+        </Scripts>
+
+    </Frame>
+</Ui>

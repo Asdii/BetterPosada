@@ -1,0 +1,21 @@
+## Interface: 30300
+## Title: BetterPosada
+## Notes: Muestra los mensajes del canal posada en una ventana más amigable.
+## Author: Nibu
+## Version: 1.0
+
+## SavedVariables: BetterPosadaDB
+
+## OptionalDeps: LibDataBroker-1.1, LibDBIcon-1.0
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+BetterPosada_Indicators.lua
+BetterPosada_Reports.lua
+BetterPosada_UI_ReportFrame.lua
+BetterPosada_UI_ReportFull.lua
+BetterPosada.xml
+BetterPosada.lua
+BetterPosada_Help.lua
